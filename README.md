@@ -1,6 +1,6 @@
 # a2s2t (Akka Android Sbt Scala Template)
 
-Given the fact that I struggled a bit when trying to make these technologies all work together I decided to publish this Scala/Akka Android project template built with sbt. If this saves someone a bit of trouble then my intent is accomplished.   
+Given the fact that I struggled a bit when trying to make these technologies all work together I decided to publish this Scala/Akka Android project template built with sbt. If this saves someone a bit of trouble then my intent is accomplished. It uses Akka 2.3.14, Scala 2.11.8, Android API 22 and Sbt 0.13.8. Enjoy!   
 
 
 Prerequisites
