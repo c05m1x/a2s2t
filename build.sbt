@@ -33,7 +33,6 @@ proguardOptions in Android ++= Seq("-dontobfuscate",
   "-keep class akka.dispatch.UnboundedMailbox { *; }",
   "-keep class akka.actor.DefaultSupervisorStrategy { *; }",
   "-keep class akka.event.Logging$LogExt { *; }",
-  //  "-keepattributes InnerClasses",
   "-keep class com.typesafe.**",
   "-keep class akka.**",
   "-keep class scala.collection.immutable.StringLike {*;}",
@@ -51,18 +50,6 @@ libraryDependencies ++= Seq(
 
 run <<= run in Android
 install <<= install in Android
-
-// Tests //////////////////////////////
-
-//libraryDependencies ++= Seq(
-//  "org.apache.maven" % "maven-ant-tasks" % "2.1.3" % "test",
-//  "org.robolectric" % "robolectric" % "3.0" % "test",
-//  "junit" % "junit" % "4.12" % "test",
-//  "com.novocode" % "junit-interface" % "0.11" % "test",
-//  "org.scalatest" %% "scalatest" % "2.1.5" % "test",
-//  "org.scalacheck" %% "scalacheck" % "1.13.0" % "test",
-//  "org.specs2" %% "specs2-core" % "3.7" % "test"
-//)
 
 // without this, @Config throws an exception,
 unmanagedClasspath in Test ++= (bootClasspath in Android).value
