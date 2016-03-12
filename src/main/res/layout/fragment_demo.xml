@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusableInTouchMode="false"
+              android:focusable="false"
+              android:background="@drawable/background"
+              android:elevation="10dp"
+              android:gravity="center_horizontal">
+
+    <Button
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:text="@string/btn_action_show"
+            android:id="@+id/btn_action"
+            android:background="@drawable/btn_lightbend"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/a2s2t_text_blue"
+            android:textStyle="bold"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="50dp">
+
+        <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:id="@+id/img_akka"
+                android:layout_weight="3"
+                android:src="@drawable/akka_150x150"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"/>
+
+        <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:id="@+id/img_scala"
+                android:layout_weight="3"
+                android:src="@drawable/scala_150x150"
+                android:elevation="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:id="@+id/img_sbt"
+                android:layout_weight="3"
+                android:src="@drawable/sbt_150x150"
+                android:layout_marginRight="10dp"
+                android:elevation="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center_horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Iterration nr. x"
+                android:id="@+id/txt_info"
+                android:layout_marginBottom="50dp"
+                android:textColor="@color/a2s2t_text_blue"/>
+    </LinearLayout>
+
+</LinearLayout>

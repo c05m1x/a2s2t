@@ -1,0 +1,10 @@
+bin/
+gen/
+workspace/
+target/
+.idea*/
+build.xml
+local.properties
+proguard-*.txt
+google-services.json
+project/project

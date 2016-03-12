@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">android~akka~scala~sbt~template</string>
+    <string name="btn_action_show">start</string>
+    <string name="btn_action_hide">stop</string>
+</resources>
