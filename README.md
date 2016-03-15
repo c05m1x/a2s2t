@@ -1,8 +1,6 @@
 # a2s2t (Akka Android Sbt Scala Template)
 
-Given the fact that I struggled a bit when trying to make these technologies all work together I decided to publish this Scala/Akka Android project template built with sbt. If this saves someone a bit of trouble then my intent is accomplished.
-
- It uses Akka 2.3.14, Scala 2.11.8, Android API 22 and Sbt 0.13.11. Enjoy!   
+ This template project uses Akka 2.3.14, Scala 2.11.8, Android API 22 and Sbt 0.13.8. Enjoy!   
 
 
 Prerequisites
@@ -75,3 +73,8 @@ the apk. For this project it should be in .../bin/a2s2t-debug.apk
 
 #### Build error `Android SDK build-tools not available`
 [The most likely cause of this error is that your SDK build-tools are old.](https://github.com/pfn/android-sdk-plugin/issues/13) Update the Android SDK and retry.
+
+License
+-------
+
+Project is licensed with [Apache License 2.0](https://tldrlegal.com/license/apache-license-2.0-\(apache-2.0\)#fulltext).
