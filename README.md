@@ -77,4 +77,4 @@ the apk. For this project it should be in .../bin/a2s2t-debug.apk
 License
 -------
 
-Project is licensed with [Apache License 2.0](https://tldrlegal.com/license/apache-license-2.0-\(apache-2.0\)#fulltext).
+The project is under [Apache License 2.0](https://tldrlegal.com/license/apache-license-2.0-\(apache-2.0\)#fulltext).
