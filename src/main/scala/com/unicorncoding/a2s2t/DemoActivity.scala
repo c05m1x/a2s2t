@@ -33,7 +33,7 @@ class DemoActivity extends Activity
   }
 
   def initDemoFragment(): Unit = {
-    val demoFragment = DemoFragment(this)
+    val demoFragment = new DemoFragment
     getFragmentManager
       .beginTransaction()
       .add(R.id.fragment_container, demoFragment)

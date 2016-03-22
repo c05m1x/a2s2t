@@ -7,7 +7,7 @@ import android.view.{LayoutInflater, View, ViewGroup}
 import android.widget.{TextView, Button, ImageView, Toast}
 import com.unicorncoding.a2s2t.{AndroidUtils, DemoActivity, R}
 
-case class DemoFragment(parent: Activity) extends Fragment
+class DemoFragment() extends Fragment
   with AndroidUtils
   with View.OnClickListener {
 
@@ -15,7 +15,7 @@ case class DemoFragment(parent: Activity) extends Fragment
 
   lazy val actionShow: String = getResources.getString(R.string.btn_action_show)
   lazy val actionHide: String = getResources.getString(R.string.btn_action_hide)
-  lazy val ctx = parent.asInstanceOf[DemoActivity]
+  lazy val ctx = this.getActivity.asInstanceOf[DemoActivity]
 
   var imgAkka: ImageView = _
   var imgSbt: ImageView = _
