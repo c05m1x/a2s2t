@@ -7,7 +7,7 @@ import android.view.{LayoutInflater, View, ViewGroup}
 import android.widget.{TextView, Button, ImageView, Toast}
 import com.unicorncoding.a2s2t.{AndroidUtils, DemoActivity, R}
 
-class DemoFragment() extends Fragment
+class DemoFragment extends Fragment
   with AndroidUtils
   with View.OnClickListener {
 
