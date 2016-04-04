@@ -1,6 +1,6 @@
-# a2s2t (Akka Android Sbt Scala Template)
+# Akka Android Sbt Scala - Example Project
 
- This template project uses Akka 2.3.14, Scala 2.11.8, Android API 22 and Sbt 0.13.8. Enjoy!   
+ This example project uses Akka 2.3.14, Scala 2.11.8, Android API 22 and Sbt 0.13.11. Enjoy!   
 
 
 Prerequisites
@@ -68,8 +68,8 @@ Troubleshooting
 
 `Local path doesn't exist.` when Intellij tries to deploy the apk.
 
-File -> Project Structure -> Modules -> a2s2t -> Android -> Packaging -> Then choose the APK Path for
-the apk. For this project it should be in .../bin/a2s2t-debug.apk
+File -> Project Structure -> Modules -> android-akka-sbt-scala -> Android -> Packaging -> Then choose the APK Path for
+the apk. For this project it should be in .../bin/android-akka-sbt-scala-debug.apk
 
 #### Build error `Android SDK build-tools not available`
 [The most likely cause of this error is that your SDK build-tools are old.](https://github.com/pfn/android-sdk-plugin/issues/13) Update the Android SDK and retry.
